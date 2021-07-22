@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+body{
+    background-image: url("../img/gym-back.jpg");
+}
+
+/* .header{
+    border: 5px solid purple;
+} */
+
+.left{
+    /* border: 3px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    height: 50px;
+    width: 150px;
+}
+
+.right{
+    /* border: 3px solid green; */
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    height: 50px;
+}
+
+.middle{
+    /* border: 3px solid yellow; */
+    display: block;
+    /* box-sizing: border-box; */
+    /* position: absolute; */
+    width: 600px;
+    height: 50px;
+    margin: 30px auto;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 9px;
+    font-size: 25px;
+}
+
+.left img{
+    width: 70px;
+    height: 70px;
+    filter: invert(100%);
+    display: block;
+    margin: auto;
+}
+
+.left p{
+    /* border: 1px solid yellow; */
+    width: 150px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.navbar li a{
+    text-decoration: none;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+
+.btn{
+    background-color: black;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 10px 9px;
+    padding: 4px 14px;
+    font-size: 15px;
+    /* cursor: pointer; */
+}
+
+.btn:hover{
+    background-color: gray;
+    cursor: pointer;
+
+}
