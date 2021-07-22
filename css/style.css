@@ -88,3 +88,34 @@ body{
     cursor: pointer;
 
 }
+
+.container{
+    border: 3px solid white;
+    border-radius: 8px;
+    display: block;
+    width: 33%;
+    height: 450px;
+    margin: 60px 52px;
+    padding: 12px;
+}
+
+.form-heading{
+    text-align: center;
+}
+
+.form-group input{
+    display: block;
+    width: 300px;
+    margin: 26px auto;
+    padding: 18px 12px;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+.container button{
+    display: block;
+    width: 326px;
+    margin: 26px auto;
+}
